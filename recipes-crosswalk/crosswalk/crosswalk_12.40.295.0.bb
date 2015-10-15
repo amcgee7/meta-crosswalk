@@ -330,7 +330,7 @@ LIC_FILES_CHKSUM = "\
     "
 
 SRC_URI += "\
-    https://download.01.org/crosswalk/releases/crosswalk/source/crosswalk-${PV}.tar.xz;name=tarball \
+    https://download.01.org/crosswalk/releases/crosswalk/source/crosswalk-${PV}.tar.xz \
     file://use_window_manager_native_decorations.patch \
     file://pick_yocto_compiler.patch \
     file://include.gypi \
